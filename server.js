@@ -48,7 +48,7 @@ var handleRequest = function(request, response) {
 
         default:
             response.writeHead(200);
-            response.end("Hi there :) my name is " + hostname + " - " + VERSION);
+            response.end("Hi there :) I'm " + hostname + " - " + VERSION);
 
     }
 }
