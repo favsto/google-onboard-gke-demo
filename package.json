@@ -1,0 +1,25 @@
+{
+  "name": "google-onboard",
+  "version": "1.0.0",
+  "description": "This is a simple HTTP server for a GKE demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favsto/google-onboard-gke-demo.git"
+  },
+  "keywords": [
+    "Google",
+    "OnBoard2018",
+    "GKE",
+    "NodeJS"
+  ],
+  "author": "fausto.fusaro@injenia.it",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/favsto/google-onboard-gke-demo/issues"
+  },
+  "homepage": "https://github.com/favsto/google-onboard-gke-demo#readme"
+}
