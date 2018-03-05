@@ -57,7 +57,7 @@ curl http://localhost:8080
 ## The application container image
 GKE will require a Docker image, visible in your GCP project. The first step towards this direction is to create a local (first version of) image:
 ```shell
-# buold and tag your image with v1, mind the final dot
+# build and tag your image with v1, mind the final dot
 docker build -t gcr.io/$DEVSHELL_PROJECT_ID/onboard-k8s-demo:v1 .
 ```
 Google Cloud Shell has a bunch of env variables, such as ```$DEVSHELL_PROJECT_ID``` that contains your project ID. 
